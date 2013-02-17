@@ -1,0 +1,7 @@
+Theme Name: engine
+Theme URL: http://www.c2oh2o.com
+Version: 1.0
+Description: -
+
+areas[navigation] = Navigation
+areas[sidebar] = Sidebar

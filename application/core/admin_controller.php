@@ -16,7 +16,7 @@ class admin_controller extends MY_Controller {
 		parent::__construct();
 		
 		// check admin login
-		if ( ! $this->account_model->is_admin_login() ) {redirect( 'site-admin/login?rdr='.urlencode( current_url() ) );}
+		//if ( ! $this->account_model->is_admin_login() ) {redirect( 'site-admin/login?rdr='.urlencode( current_url() ) );}
 		
 		// load model
 		$this->load->model( array( 'modules_model' ) );

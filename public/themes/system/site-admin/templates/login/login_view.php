@@ -1,6 +1,6 @@
 <?php $this->load->view( 'site-admin/inc_html_head' ); ?>
 		
-		
+
 		<?php if ( isset( $browser_check ) && $browser_check != 'yes' ): ?><div class="browser-check-no"><?php echo lang( 'account_get_modern_browser' ); ?></div><?php endif; ?> 
 		<div class="login-cloak">
 			<div class="login-container">
